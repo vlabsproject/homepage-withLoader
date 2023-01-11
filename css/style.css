@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.main_logo{
+	position: relative;
+	left: 35px;
+	top: 30px;
+    bottom: 20px;
+	height: 32px;
+}
+.vlabs{
+    position: relative;
+    top: 25px;
+    padding-left: 35px;
+    font-size: 30px;
+}
+.vit{
+    position: relative;
+    left: 1100px;
+    bottom:20px ;
+    height: 60px;
+}
+.line{
+    width: 100%;
+    border-top: solid black; 
+    margin-top: 30px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.col{
+    flex-basis: 50%;
+    
+}
+h1{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #256AC0;
+}
+.card{
+    height: 292px;
+    width: 240px;
+    border-radius: 18px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/card.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+    /* display: block; */
+    text-decoration: none;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    font-family: 'Lato';
+    color: #FFFFFF;
+    text-align:left;
+    padding: 50px 10px 30px;
+    font-size: 20px;
+
+}
+p{
+    font-family: 'Lato';
+    color: #FFFFFF;
+    padding-top: 30px;
+    font-size: 11px;
+}
+

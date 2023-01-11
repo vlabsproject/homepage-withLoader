@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap');
+body{
+    width: 900px;
+    height: 100vh;
+	overflow-x: hidden;
+}
+
+.logo {
+display: flex;
+align-items: center;
+}
+.logo img {
+width: 30px;
+margin-top: 22px;
+margin-left: 35px;
+}
+
+
+.Vlabs{
+  position: absolute;  
+  width: 82px;  
+  height: 28px;  
+  left: 75px;  
+  top: 33px;  
+  font-family: 'Poppins';  
+  font-style: bold;  
+  font-weight: 700;  
+  font-size: 24px;  
+  line-height: 28px;  
+  color: #000000;  	   
+}
+
+.User{
+	position: relative;
+	width: 222px;
+	height: 34px;
+	left: 1150px;
+	top: -30px;  
+	font-family: 'Poppins';
+	font-style: Bold;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+.logouserprofile{
+	width: 3px;
+	height: 3px;
+	margin-top: 20px;
+	margin-left: 900px;
+}
+.Signoutbutton{
+	box-sizing: border-box;
+	font-family: 'Poppins';
+	font-style: Bold;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+	width: 100px;
+	height: 32px;
+	left: 1350px;
+	top: -60px; 
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25);
+	border-radius: 6px;
+}
+.line1{
+	position: absolute;
+	width: 1570px;
+	height: 0px;
+	left: 0px;
+	top: 100px;
+	background: #D9D9D9;
+	border: 1px solid #000000;
+	transform: rotate(0.06deg);
+	}
+	  
+	.linetwo{
+	position: absolute;
+	width: 1570px;
+	height: 0px;
+	left: 0px;
+	top: 170px;
+	background: #D9D9D9;
+	border: 1px solid #000000;
+	transform: rotate(0.06deg);
+	}
+  /* lab title*/
+
+  .labtitle{
+	position: absolute;
+	width: 600px;
+	height: 38px;
+	left: 590px;
+	top: 117px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000;
+}
+  /* next button*/
+  .next{
+	margin: 2px;
+	font-family: 'Poppins';
+	font-style: bold;
+	font-size: 20px;
+	color: #FFFAFA;	
+	align-items: center;
+	text-align: center;	
+	box-sizing: border-box;
+	position: relative;
+	width: 60px;
+	height: 35px;
+	left: 1350px;
+	top: -10px;
+	background: #256AC0;
+	box-shadow: 0px 0.5px 1.5px;
+	border-radius: 6px;
+	}
+	  /* back button*/
+.back{
+	font-family: 'Poppins';
+	font-style: bold;
+	color: #FFFAFA;
+	font-size: 18px;
+	text-align: center;
+	align-items: center;
+	box-sizing: border-box;
+	position: absolute;
+	width: 60px;
+    height: 35px;
+	left: 80px;
+	top: 115px;
+	background: #2469BF;
+	border: 1px solid #FFFDFD;
+	box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25);
+	border-radius: 6px;
+    text-decoration: none;
+}
+.bluewrapper{
+	position: absolute;
+width: 1381px;
+height: 392px;
+left: 70px;
+top: 253px;
+
+background:  #2266BB;
+border-radius: 14.0304px;
+}
+
+.titleinstruction{
+	position: absolute;
+width: 200px;
+height: 38px;
+left: 130px;
+top: 280px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+color: #FFFAFA;
+}
+
+  .HEADING1{
+         
+
+    /* A Modulation and Demodulation */
+
+          
+position: absolute;
+height: 26px;
+left: 585px;
+top: 206px;
+
+font-family: 'Poppins';
+font-style: bold;
+font-weight: 400;
+font-size: 34px;
+color: #000000;
+
+}
+
+
+
+.midContainer1{
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	left: 120px;
+	top: 330px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+
+.midContainer2{
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	left: 800px;
+	top: 330px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 35px;
+	color: #ffffff;
+}
+
+
+ /* SIMULATION TITLE*/
+ .linethree{
+	position: absolute;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 750px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(0.06deg);
+}
+
+.linefour{
+	position: absolute;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 820px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+transform: rotate(0.06deg);
+}
+
+
+.titlesimulation{
+	position: absolute;
+	width: 162px;
+	height: 38px;
+	left: 694px;
+	top: 767px;
+	font-family: 'poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000;
+}
+
+.blueblockone{
+	position: absolute;
+	width: 1381px;
+	height: 400px;
+	left: 70px;
+	top: 875px;
+	
+	background:  #2266BB;
+	border-radius: 14.0304px;
+}
+
+.smallwhiteblockone{
+position: absolute;
+width: 550px;
+height: 340px;
+top: 905px;
+left: 100px;
+background: #ffffff;
+border-radius: 9.70525px;
+}
+
+.twoelements{
+	top: 1015px;
+	left: 705px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+
+.Elementsone{
+	position: absolute;
+	width: 200px;
+	height: 38px;
+	top: 915px;
+	left: 705px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	color: #FFFAFA;
+	
+	}
+	
+	
+.lineoneelement{
+	position: absolute;
+		width: 590px;
+		height: 0px;
+		top: 960px;
+		left: 705px;
+		
+		border: 2.91157px solid #FDFDFD;
+		transform: rotate(0.09deg);
+	}
+
+.MSAvalue{
+top: -17px;
+left: 440px;
+position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+.voltagesone{
+	top: 3px;
+left: 470px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+#mess_freq_input{
+	position: absolute;
+	top: 7px;
+	left: 290px;
+	cursor: pointer;
+}
+
+.MSFvalue{
+	top: -18px;
+	left: 440px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+.hertone{
+	top: 1102px;
+left: 1190px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+
+/* second section*/
+
+
+
+
+/* Message Signal */
+#mess_amp_input{
+	position: absolute;
+	top: 7px;
+	left: 290px;
+	cursor: pointer;
+}
+
+
+
+
+
+.Threeelements{
+
+top: 1100px;
+left: 705px;
+position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second section*/
+
+.blueblocktwo
+{
+	top: 1405px;
+	left: 70px;
+	position: absolute;
+	width: 1381px;
+	height: 400px;
+	background:  #2266BB;
+	border-radius: 14.0304px;
+	
+}
+	.smallwhiteblocktwo{
+		top: 1435px;
+		left: 105px;
+		position: absolute;
+        width: 550px;
+        height: 340px;
+        background: #ffffff;
+        border-radius: 9.70525px;
+
+	}
+	
+	.Elementstwo{
+    top: 1445px;
+    left: 705px;
+    position: absolute;
+	width: 200px;
+	height: 38px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	color: #FFFAFA;
+	
+	}
+
+
+	.linenumbertwo{
+		position: absolute;
+		width: 603px;
+		height: 0px;
+		top: 1490px;
+		left: 705px;
+		
+		border: 2.91157px solid #FDFDFD;
+		transform: rotate(0.09deg);
+	}
+	
+	.twoelementssec2{
+
+        top: 1545px;
+        left: 700px;
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+	}
+
+		
+#carr_amp_input{
+	position: absolute;
+	top: 5px;
+	left: 290px;
+	cursor: pointer;
+}
+
+.CSAvalue{
+	top: 1528px;
+	left: 1150px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+	.Threeelementssec2{
+		top: 1630px;
+		left: 700px;
+        position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+		
+	}
+
+.voltagestwo{
+	top: 1549px;
+left: 1183px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+#carr_freq_input{
+	position: absolute;
+	top: 9px;
+	left: 290px;
+	cursor: pointer;
+}
+
+.CSFvalue{
+	top: -15px;
+	left: 450px;
+	position: absolute;
+	width: 648px;
+	height: 236px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+.herttwo{
+	top: 5px;
+	left: 490px;
+		position: absolute;
+		width: 648px;
+		height: 236px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 29px;
+		color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* third section*/
+	
+.blueblockthree
+{
+	
+	top: 1935px;
+	left: 70px;
+	position: absolute;
+	width: 1381px;
+	height: 400px;
+    background: #2266BB;
+	border-radius: 18.4017px;
+	}
+
+	.smallwhiteblockthree{
+		top: 1975px;
+        position: absolute;
+         width: 550px;
+       height: 340px;
+        left: 100px;
+       background: #ffffff;
+        border-radius: 9.70525px;
+	}
+	
+	.Elementsthree{
+
+	top: 1975px;
+	left: 700px;
+	 position: absolute;
+	width: 200px;
+	height: 38px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	color: #FFFAFA;
+	}
+
+
+	.thirdElementline{
+		position: absolute;
+		width: 603px;
+		height: 0px;
+		top: 2025px;
+		left: 705px;
+		
+		border: 2.91157px solid #FDFDFD;
+		transform: rotate(0.09deg);
+	}
+
+.twoelementssec3{
+position: absolute;
+width: 369px;
+height: 31px;
+top: 2145px;
+left: 709px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 26.2042px;
+line-height: 31px;
+
+
+
+color: #2BFF09 ;
+
+	}
+
+	.footer{
+		position: absolute;
+width: 1580px;
+height: 50px;
+left: 0px;
+top: 2525px;
+ background: #2266BB;;
+
+} 
+	
